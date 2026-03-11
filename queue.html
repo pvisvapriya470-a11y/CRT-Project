@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Queue - VizAlgo</title>
+<link rel="stylesheet" href="queue.css">
+</head>
+
+<body>
+
+<header>
+<h1>Queue Data Structure</h1>
+<p>First In First Out (FIFO)</p>
+</header>
+
+<section class="info">
+
+<h2>What is a Queue?</h2>
+
+<p>
+A Queue is a linear data structure that follows the 
+<b>FIFO (First In First Out)</b> principle. 
+The first element inserted into the queue is the first one removed.
+Queues are widely used in scheduling, buffering, and task processing systems.
+</p>
+
+<h3>Queue Operations</h3>
+
+<ul>
+<li><b>Enqueue</b> – Insert element at the rear</li>
+<li><b>Dequeue</b> – Remove element from the front</li>
+<li><b>Peek</b> – View the front element</li>
+<li><b>isEmpty</b> – Check if queue is empty</li>
+</ul>
+
+</section>
+
+<section class="visualization">
+
+<h2>Queue Visualization</h2>
+
+<input type="text" id="value" placeholder="Enter value">
+
+<button onclick="enqueue()">Enqueue</button>
+<button onclick="dequeue()">Dequeue</button>
+
+<div id="queueContainer"></div>
+
+</section>
+
+<div class="back">
+<a href="dashboard.html">
+<button>Back to Dashboard</button>
+</a>
+</div>
+
+<script src="queue.js"></script>
+
+</body>
+</html>
